@@ -1,11 +1,14 @@
+let num=331;
+
 let count =0;
 for(let i=0; i<=num; i++){
 if(num%i==0){
-count ++;
+count++;
 }
 }
-if(count==1){
-console.log("Yes"){
+if(count==2){
+console.log("Yes")
+}
 else{
-console.log("No")}
+console.log("No")
 }
